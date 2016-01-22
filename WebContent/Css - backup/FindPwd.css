@@ -1,0 +1,206 @@
+@CHARSET "UTF-8";
+
+* {
+	margin: 0px;
+	padding: 0px;
+	border: none 0;
+}
+
+body {
+	line-height: 1;
+	font-family: "Microsoft Yahei", arial, "宋体";
+	font-size: 16px;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+/*@全局reset-end*/
+body {
+	background: url(../Image/body_bg.jpg) repeat-x;
+}
+
+form {
+	width: 422px;
+	margin: 140px auto;
+}
+
+form h1 {
+	font-size: 22px;
+	font-weight: 100;
+	line-height: 45px;
+	height: 45px;
+	text-align: center;
+	color: #fff;
+	border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	background: #5c9dd7;
+	background: -moz-linear-gradient(top, #5c9dd7, #4a8ac8);
+	background: -webkit-gradient(linear, top, 100% 50%, from(#5c9dd7),
+		to(#4a8ac8));
+	background: -webkit-linear-gradient(top, #5c9dd7, #4a8ac8);
+	background: -o-linear-gradient(top, #5c9dd7, #4a8ac8);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,
+		startColorstr=#5c9dd7, endColorstr=#4a8ac8);
+	-ms-filter:
+		"progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#5c9dd7, endColorstr=#4a8ac8)";
+}
+
+#findPwd div, #findPwd2 div.findpwd2, div.findpwd3 {
+	padding: 30px 40px;
+	background: #fff;
+	position: relative;
+	border-radius: 0px 0px 5px 5px;
+	height: 200px;
+}
+
+#findPwd div span {
+	width: 120px;
+	display: block;
+	float: left;
+	height: 25px;
+	line-height: 25px;
+	padding: 5px 0;
+}
+
+input.textField {
+	height: 25px;
+	line-height: 25px;
+	padding: 5px 10px;
+	font-size: 16px;
+	background: #eee;
+	width: 197px;
+	color: #333;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	outline: none;
+}
+
+input.nextbtn {
+	box-shadow: 0 0 2px #fff inset;
+	text-shadow: 1px 1px 1px #fbe5ac;
+	border-radius: 3px;
+	border: 1px solid #e6b650;
+	padding: 4px 10px;
+	font-size: 20px;
+	font-weight: 400;
+	float: right;
+	background: #febf4d;
+	background: linear-gradient(#ffd974, #febf4d);
+	color: #986a39;
+	font-family: "Microsoft Yahei", "微软雅黑", arial, "宋体";
+	margin: 30px 3px 0px 0px;
+	_border: none;
+	_padding: 1px;
+}
+
+input.nextbtn:hover, input.nextbtn:focus {
+	background-color: #ffd974;
+	background-image: linear-gradient(#febf4d, #ffd974);
+	border: 1px solid #c1913d;
+}
+
+p.errortext {
+	padding-left: 25px;
+	background: url(../Image/adminIconList.png) no-repeat 0px -372px;
+	color: #DE4F38;
+	height: 25px;
+	line-height: 25px;
+}
+
+p#error1 {
+	margin: 36px 0 0 20px;
+}
+/*找回密码第二个页面*/
+p#error2 {
+	margin: 37px 0 0 20px;
+	float: left;
+}
+
+#findPwd2 div span {
+	width: 130px;
+	text-align: right;
+	display: block;
+	float: left;
+	height: 25px;
+	line-height: 25px;
+	padding: 5px 0;
+}
+
+#findPwd2 select {
+	width: 180px;
+	cursor: pointer;
+	padding-left: 5px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	color: #333;
+	font-size: 16px;
+	height: 32px;
+	line-height: 30px;
+	outline: medium none;
+	padding: 5px 10px;
+	width: 197px;
+	margin-top: 3px;
+}
+
+#findPwd2 div.findpwd2-div2 {
+	margin-top: 20px;
+}
+
+#findPwd2 div.findpwd2-div2 input {
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	color: #333;
+	font-size: 16px;
+	height: 25px;
+	line-height: 25px;
+	outline: medium none;
+	padding: 4px 10px 4px 15px;
+	width: 170px;
+}
+
+input#findpwd2Btn {
+	margin: 30px 15px 0 0;
+	width:68px;
+}
+/*找回密码第三个页面，输入新密码*/
+div.findpwd3 span {
+	display: block;
+	float: left;
+	height: 25px;
+	line-height: 25px;
+	padding: 5px 0;
+	text-align: right;
+	width:125px;
+	padding-right:5px;
+	
+}
+
+div.findpwd3 div input {
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	color: #333;
+	font-size: 16px;
+	height: 25px;
+	line-height: 25px;
+	outline: medium none;
+	padding: 4px 10px 4px 15px;
+	width: 170px;
+}
+div.martop{
+	margin-top:20px;
+}
+input#findpwd3Btn{
+	width:68px;
+	margin-right:15px;
+}
+a.forgetProblem{
+	float:left;
+	margin-top:40px;
+	color:#4C8CCA;
+}

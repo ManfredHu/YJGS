@@ -1,0 +1,211 @@
+@CHARSET "UTF-8";
+
+div#main h2 {
+	font-weight: 100;
+	font-size: 18px;
+	padding-left: 10px;
+}
+
+div.productNameDiv input {
+	border: 1px solid #cccccc;
+	font-size: 16px;
+	margin: 7.5px 0;
+	padding: 5px 8px;
+	width: 150px;
+}
+
+div.productNameDiv span, div.productType span {
+	float: left;
+	height: 45px;
+	line-height: 45px;
+	text-align: right;
+}
+
+div.productType select {
+	border: 1px solid #ccc;
+	font-size: 16px;
+	margin-top: 6.5px;
+	padding: 5px;
+	width: 150px;
+	_margin-top: 11.5px;
+}
+
+div.productNameDiv {
+	width: 260px;
+	float: left;
+	margin: 0px 20px 0px 0px;
+}
+
+div.productType {
+	width: 250px;
+	height: 45px;
+	float: left;
+}
+
+form#baseInfoForm {
+	overflow: hidden;
+	margin-left: 70px;
+}
+
+form#baseInfoForm p {
+	width: 100%;
+}
+
+div.nameAndType {
+	overflow: hidden;
+}
+/*table部分*/
+th, td {
+	text-align: center;
+}
+
+th {
+	background: none repeat scroll 0 0 #1169bf;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 100;
+	padding: 3px 0;
+}
+
+tbody tr td input {
+	border: 1px solid #cccccc;
+	font-size: 16px;
+	padding: 2px 8px;
+	width: 150px;
+}
+
+table#paramsTable {
+	margin: 10px 0px 10px 50px;
+}
+
+input.deletebtn {
+	background: url("../Image/adminIconList.png") no-repeat 0px -505px
+		#EC4F4F;
+	padding: 0 0 0 25px;
+	color: #fff;
+	width: 70px;
+	height: 24px;
+	border: none 0;
+	_background: #eee;
+	_color: #000;
+	_padding: 0;
+}
+
+input.deletebtn:hover, input.deletebtn:focus {
+	background: url("../Image/adminIconList.png") no-repeat 0px -505px
+		#f59292;
+}
+
+input#addParamBtn {
+	background: none repeat scroll 0 0 #ffdf75;
+	display: block;
+	line-height: 20px;
+	margin: 10px 0 0 50px;
+	padding: 3px 6px;
+}
+
+input.saveBtn {
+	box-shadow: 0 0 2px #fff int;
+	border-radius: 3px;
+	font-weight: 400;
+	background: #febf4d;
+	background: linear-gradient(#ffd974, #febf4d);
+	color: #614323;
+	border: 1px solid #e6b650;
+	box-shadow: 0 0 2px #fff int;
+	font-size: 20px;
+	font-weight: 400;
+	padding: 3px 10px;
+	margin: 10px 0 0 364px;
+	height: 33px;
+	width: 146px;
+	_border: none;
+	_padding: 0;
+	display: block;
+}
+
+input.saveBtn:hover, input.saveBtn:focus {
+	background-color: #ffd974;
+	background-image: linear-gradient(#febf4d, #ffd974);
+	border: 1px solid #c1913d;
+}
+
+h2.h2-smartPic, h2.proIntroduce {
+	margin: 15px 0px 20px 5px;
+	border-top: 1px dashed #000;
+}
+
+div#main h4 {
+	font-weight: 100;
+	font-size: 16px;
+	margin: 10px 70px;
+}
+
+input.uploadBtn {
+	display: none;
+}
+
+div.uploadDiv {
+	background: url("../Image/BGupload.png") no-repeat left top;
+	height: 40px;
+	margin: 10px 0 0 110px;
+	overflow: hidden;
+	position: relative;
+	width: 145px;
+}
+
+input.file {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity : 0);
+	z-index: 999;
+	height: 40px;
+	width: 145px;
+}
+
+input#upload {
+	display: none;
+}
+
+p.nosmartpic {
+	font-size: 14px;
+	padding-left: 15px;
+}
+
+div#picList {
+	width: 435px;
+	margin: 0px auto;
+}
+
+div#picList a {
+	margin-right: 5px;
+}
+/*产品介绍*/
+input.saveIntroduce {
+	box-shadow: 0 0 2px #fff int;
+	border-radius: 3px;
+	font-weight: 400;
+	background: #febf4d;
+	background: linear-gradient(#ffd974, #febf4d);
+	color: #614323;
+	border: 1px solid #e6b650;
+	box-shadow: 0 0 2px #fff int;
+	font-size: 20px;
+	font-weight: 400;
+	padding: 3px 10px;
+	margin: 30px 0 20px 434px;
+	height: 33px;
+	width: 146px;
+	_border: none;
+	_padding: 0;
+	display: block;
+}
+
+input.saveIntroduce:hover, input.saveIntroduce:focus {
+	background-color: #ffd974;
+	background-image: linear-gradient(#febf4d, #ffd974);
+	border: 1px solid #c1913d;
+}

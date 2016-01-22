@@ -1,0 +1,193 @@
+@CHARSET "UTF-8";
+/*全局reset*/
+* {
+	margin: 0px;
+	padding: 0px;
+	border: none 0;
+}
+
+body {
+	line-height: 1;
+	font-family: "Microsoft Yahei", arial, "宋体";
+	font-size: 16px;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+/*@全局reset-end*/
+body {
+	background: url(../Image/body_bg.jpg) repeat-x #D5D5E1;
+}
+
+form {
+	width: 422px;
+	margin: 140px auto;
+}
+
+form h1 {
+	font-size: 22px;
+	font-weight: 100;
+	line-height: 45px;
+	height: 45px;
+	text-align: center;
+	color: #fff;
+	border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0; /* 老的 Firefox */
+	background: #5c9dd7;
+	background: -moz-linear-gradient(top, #5c9dd7, #4a8ac8); /*Mozilla*/
+	background: -webkit-gradient(linear, top, 100% 50%, from(#5c9dd7),
+		to(#4a8ac8)); /*Old gradient for webkit*/
+	background: -webkit-linear-gradient(top, #5c9dd7, #4a8ac8);
+	/*new gradient for Webkit*/
+	background: -o-linear-gradient(top, #5c9dd7, #4a8ac8); /*Opera11*/
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,
+		startColorstr=#5c9dd7, endColorstr=#4a8ac8); /*IE<9>*/
+	-ms-filter:
+		"progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#5c9dd7, endColorstr=#4a8ac8)";
+	/*IE8+*/
+}
+
+form div.loginDiv {
+	padding: 30px 40px;
+	background: #fff;
+	position: relative;
+	border-radius: 0px 0px 5px 5px;
+	height: 270px;
+}
+
+#userNum, #userPwd {
+	height: 21px;
+	line-height: 21px;
+	font-size: 16px;
+	background: #bbb;
+	padding: 10px 0px 10px 60px;
+	display: block;
+	width: 283px;
+	color: #333;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	margin-bottom: 15px;
+	outline: none;
+}
+
+#yanzhengma {
+	height: 21px;
+	line-height: 21px;
+	font-size: 16px;
+	background: #dedede;
+	padding: 10px 0px 10px 60px;
+	display: block;
+	width: 160px;
+	color: #333;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	margin-bottom: 15px;
+	outline: none;
+	background: url(../Image/adminLoadIcon.png) no-repeat 0px -108px #eee;
+}
+
+#checkNum {
+	position: absolute;
+	top: 147px;
+	right: 39px;
+}
+
+#userNum {
+	background: url(../Image/adminLoadIcon.png) no-repeat 0px -5px #eee;
+}
+
+#userPwd {
+	background: url(../Image/adminLoadIcon.png) no-repeat 0px -58px #eee;
+}
+
+#checkbox {
+	/* margin: 25px 0 0 30px; */
+	
+}
+
+#login {
+	box-shadow: 0 0 2px #fff inset;
+	text-shadow: 1px 1px 1px #fbe5ac;
+	border-radius: 3px;
+	border: 1px solid #e6b650;
+	_border:none;
+	padding: 8px 40px;
+	font-size: 20px;
+	font-weight: 400;
+	position: absolute;
+	right: 39px;
+	top: 250px;
+	z-index: 999;
+	background: #febf4d;
+	background: linear-gradient(#ffd974, #febf4d);
+	color: #986a39;
+	font-family: "Microsoft Yahei", "微软雅黑", arial, "宋体";
+}
+
+#login:hover, #login:focus {
+	background-color: #ffd974;
+	background-image: linear-gradient(#febf4d, #ffd974);
+	border: 1px solid #c1913d;
+}
+
+form div a.forget {
+	font-size: 14px;
+	position: absolute;
+	top: 210px;
+	right: 39px;
+	color: #4C8CC9;
+}
+
+form div a:hover.forget {
+	text-decoration: underline;
+}
+
+div.autoDiv {
+	margin: 76px 0px 5px 20px;
+}
+
+label {
+	font-size: 16px;
+}
+/*错误信息*/
+#error{
+	position:absolute;
+	top:206px;
+	left:56px;
+	padding-left:25px;
+	background:url(../Image/adminIconList.png) no-repeat 0px -372px;
+	height:24px;
+	line-height:24px;
+	color:#DD4B35;
+}
+/*loginTips页面*/
+div.noLoignPage{
+	width:300px;
+	margin:50px auto 0 auto;
+	background:#fff;
+	padding:20px 50px;
+	text-align:center;
+}
+p.noLoginTips{
+	line-height:70px;
+	height:70px;
+	padding-left:70px;
+	background:url(../Image/iconfont-jinzhi.png) no-repeat;
+}
+p.noLoginTipsLink{
+	margin-top:40px;
+}
+p.noLoginTipsLink a{
+	color:#1169bf;
+}
+p.noLoginTipsLink a:hover{
+	text-decoration:underline;
+}
+/*errorTips页面*/

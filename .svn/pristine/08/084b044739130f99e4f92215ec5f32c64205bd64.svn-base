@@ -1,0 +1,48 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>回复申诉</title>
+</head>
+<body>
+<%
+	String email = null;
+	try{
+		 email =request.getParameter("email");
+		if(email==null){
+			request.setAttribute("judge", "false");
+			request.setAttribute("text", "数据传递出错！");
+			request.setAttribute("URL", "../ManagerComplaint/NewsRemind.jsp");
+			request.getRequestDispatcher("../Master/handlePage.jsp").forward(request, response);
+			return;
+		}
+	}
+	catch(Exception e){
+		e.printStackTrace();
+		request.setAttribute("judge", "false");
+		request.setAttribute("text", "数据传递出错！");
+		request.setAttribute("URL", "../ManagerComplaint/NewsRemind.jsp");
+		request.getRequestDispatcher("../Master/handlePage.jsp").forward(request, response);
+		return;
+	}
+	email =request.getParameter("email");
+	//int id=Integer.parseInt(request.getParameter("id"));
+%>
+<form action="ManagerComplaintSel" method="post">
+
+		<h3>申述回复</h3>
+		回复邮箱：<p><%=email %></p>
+		<input type="hidden" name="email" value=<%=email %>>
+		我的邮箱：<input type="text" name="myEmail" />
+		邮箱密码：<input type="password" name="password" />
+		邮箱标题：<input type="text" name="title" value="yjgs邮件申述回复"/>
+		<input type="hidden" name="cid" value=<%=request.getParameter("Id") %> />
+		回复内容：<textarea name="text">【管理员回复】你好</textarea>
+		友情提醒：在发送邮箱前，请检查你的邮箱是否开启SMTP和POP服务，如无，邮件发送将失败！	
+		<input type="submit" value="提交" />
+</form>
+
+</body>
+</html>

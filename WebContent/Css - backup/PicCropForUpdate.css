@@ -1,0 +1,75 @@
+@CHARSET "UTF-8";
+
+div#main h2 {
+	font-weight: 100;
+	font-size: 18px;
+	margin: 20px 0 0 10px;
+}
+div#main h2 span{
+	font-size:12px;
+}
+#breDiv {
+	padding-left: 7px;
+	margin-top: 10px;
+}
+
+div.secondDiv {
+	position: relative;
+}
+/*************/
+/****原图部分*****/
+/*************/
+div.bigPic {
+	width: 350px;
+	margin: 20px 0 0 10px;
+	display: inline-block;
+}
+
+div.bigPic span, div.smartPic span {
+	display: block;
+	margin-bottom: 10px;
+}
+/*************/
+/*****预览图部分***/
+/*************/
+div.smartPic {
+	width: 210px;
+	position: absolute;
+	right: 10px;
+	_right: 20px;
+	top: 44px;
+	_top: 46px;
+}
+div.smartPic3{
+	width: 285px;
+	position: absolute;
+	right: 5px;
+	top: 54px;
+	_top: 57px; 
+}
+input.sureAndSave {
+	box-shadow: 0 0 2px #fff int;
+	border-radius: 3px;
+	font-weight: 400;
+	background: #febf4d;
+	background: linear-gradient(#ffd974, #febf4d);
+	color: #614323;
+	border: 1px solid #e6b650;
+	box-shadow: 0 0 2px #fff int;
+	font-size: 20px;
+	font-weight: 400;
+	padding: 3px 10px;
+	margin: 0px 0 0 500px;
+	line-height: 33px;
+	width: 128x;
+	_border: none;
+	_padding: 0;
+	display: block;
+	text-align: center;
+}
+
+input.sureAndSave:hover, input.sureAndSave:focus {
+	background-color: #ffd974;
+	background-image: linear-gradient(#febf4d, #ffd974);
+	border: 1px solid #c1913d;
+}

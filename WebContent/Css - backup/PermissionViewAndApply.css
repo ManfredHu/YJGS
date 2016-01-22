@@ -1,0 +1,107 @@
+@CHARSET "UTF-8";
+/***********************/
+/******查看与申请权限********/
+/***********************/
+div#main h2 {
+	font-weight: 100;
+	font-size: 20px;
+	padding: 10px 20px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+h2.canApply {
+	border-top: 1px solid #888;
+	margin-top: 20px;
+}
+
+th, td {
+	text-align: center;
+}
+/*功能列表表头宽度*/
+th {
+	padding: 2px;
+	background: #1169BF;
+	color: #fff;
+	width: 80px;
+}
+
+tbody tr td {
+	padding: 5px 0;
+}
+
+th.type {
+	width: 100px;
+}
+
+th.info {
+	width: 120px;
+}
+
+form#PermissionApply div {
+	margin-bottom: 10px;
+	margin-left: 50px;
+	font-size: 16px;
+}
+
+form#PermissionApply div input {
+	margin-right: 5px;
+}
+
+form#PermissionApply input.submitButton {
+	float: right;
+	margin-right: 40px;
+	margin-top: 40px;
+}
+/***********************/
+/******查看权限申请状态******/
+/***********************/
+th.applyDate {
+	width: 120px;
+}
+
+th.applyPermission {
+	width: 120px;
+}
+
+th.isPass {
+	width: 120px;
+}
+
+table.appliesStatus tbody tr td span {
+	display: block;
+	padding: 5px 10px;
+	width: 150px;
+}
+
+caption {
+	font-size: 20px;
+	padding: 5px;
+}
+
+table.appliesStatus {
+	margin: 0px auto;
+	width: 428px;
+}
+
+table.secondTable {
+	margin-top: 40px;
+}
+
+caption.nopass, caption.pass {
+	width: 135px;
+	margin: 0px auto;
+	padding-left: 30px;
+	background: url(../Image/adminIconList.png) no-repeat 0px -455px;
+}
+
+caption.nopass {
+	background: url(../Image/adminIconList.png) no-repeat 0px -405px;
+}
+form#PermissionApply p{
+	text-align:center;
+}
+div#main h2.canApply{
+	margin-top:20px;
+	border-top:1px dashed #000;
+}

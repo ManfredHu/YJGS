@@ -1,0 +1,149 @@
+@CHARSET "UTF-8";
+
+form#typeOptions span {
+	float: left;
+	height: 45px;
+	line-height: 45px;
+	padding-right: 10px;
+	text-align: right;
+	width: 280px;
+}
+
+form#typeOptions select {
+	width: 150px;
+	border: 1px solid #ccc;
+	margin-top: 6.5px;
+	_margin-top: 11.5px;
+	padding: 5px 5px;
+	font-size: 16px;
+	padding: 5px 5px;
+}
+
+table.tb {
+	margin-top: 20px;
+	width: 655px;
+}
+
+table.tb td {
+	text-align: center;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+td.proName{
+	padding:5px;
+}
+table.tb thead th {
+	padding: 2px 0px;
+	background：
+}
+
+table.tb thead {
+	color: #fff;
+	text-align: center;
+	background: none repeat scroll 0 0 #1169bf;
+}
+
+table.tb thead th {
+	padding: 2px 0px;
+}
+
+th.productName {
+	width: 110px;
+}
+
+th.publishTime {
+	width: 150px;
+}
+
+th.smartPic {
+	width: 223px;
+}
+
+th.detail {
+	width: 100px;
+}
+
+th.delete {
+	width: 60px;
+}
+
+table.tb tbody td img {
+	vertical-align: middle;
+	padding: 5px 0px;
+}
+
+table.tb tbody td a {
+	color: #1169bf;
+}
+
+table.tb tbody td a:hover {
+	text-decoration: underline;
+}
+/*隐藏当前页面*/
+p.nowPage {
+	display: none;
+}
+
+div.PageList {
+	margin-top: 40px;
+	overflow: hidden;
+}
+
+div.PageList a {
+	margin: 0px 5px;
+	border: 1px solid #e1e2e3;
+	cursor: pointer;
+	display: block;
+	float: left;
+	height: 34px;
+	width: 34px;
+	line-height: 34px;
+	text-align: center;
+	color: #1169BF;
+	border: 1px solid #e1e2e3;
+}
+
+div.PageList a.upPage {
+	width: 100px;
+	background: url(../Image/iconfont-xiayi.png) no-repeat 15px 9px;
+	padding-left: 8px;
+	_background:none;
+	_padding-left:0px;
+}
+
+div.PageList a.upPage:hover {
+	background: url(../Image/iconfont-xiayi.png) no-repeat 15px 9px #f2f8ff;
+	_background:#f2f8ff;
+	border: 1px solid #38f;
+}
+
+div.PageList a.downPage {
+	width: 100px;
+	padding-right: 8px;
+	background: url(../Image/iconfont-xiayi.png) no-repeat 80px -41px;
+	_background:none;
+	_padding-right:0px;
+}
+
+div.PageList a.downPage:hover {
+	background: url(../Image/iconfont-xiayi.png) no-repeat 80px -41px
+		#f2f8ff;
+	_background:#f2f8ff;
+	border: 1px solid #38f;
+}
+
+div.PageList a:hover {
+	background: #f2f8ff;
+	border: 1px solid #38f;
+}
+/*管理新闻部分*/
+input.chakan{
+	background: none repeat scroll 0 0 #ffdf75;
+    line-height: 20px;
+    padding: 3px 6px;
+    margin-left:20px;
+    _padding:0px;
+}
+form.newType{
+	height:45px;
+}

@@ -1,0 +1,62 @@
+@CHARSET "UTF-8";
+
+caption {
+	padding: 5px;
+	font-size: 20px;
+}
+
+thead {
+	background: #1169bf;
+	color: #fff;
+	text-align: center;
+}
+
+thead th {
+	padding: 2px 0;
+}
+
+div#main td {
+	text-align: center;
+}
+
+th.number {
+	width: 100px;
+}
+
+th.typeName {
+	width: 130px;
+}
+
+th.productNum {
+	width: 100px;
+}
+
+th.modify {
+	width: 150px;
+}
+
+th.delete {
+	width: 100px;
+}
+
+tbody td {
+	padding: 3px 5px;
+}
+tbody td.deleteTd a {
+	padding-left: 25px;
+	background: url(../Image/adminIconList.png) no-repeat -6px -574px;
+	color:#1169BF;
+}
+input.modify{
+	
+}
+.textField{
+	border: 1px solid #56abe4;
+    font-size: 14px;
+    padding: 5px 4px;
+    width: 110px;
+}
+table.center{
+	width:500px;
+	margin:0px auto;
+}

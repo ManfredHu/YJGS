@@ -1,0 +1,282 @@
+@CHARSET "UTF-8";
+
+body {
+	color: #3b3b3b;
+}
+
+div#content {
+	overflow: hidden;
+}
+/*当前位置部分begin*/
+div.nowTips {
+	padding-bottom: 20px;
+}
+
+div.nowTips span {
+	display: block;
+	padding-left: 28px;
+	background: url(../Image/userIconlist.png) no-repeat -7px -1px;
+	margin-left: 35px;
+}
+
+div.nowTips a {
+	color: #1169BF;
+}
+
+div.nowTips a:hover, div.nowTips a:focus {
+	text-decoration: underline;
+}
+/*当前位置部分end*/
+div#proNav {
+	width: 219px;
+	float: left;
+	display: inline;
+	margin-left: 30px;
+}
+
+div#productList {
+	width: 736px;
+	float: right;
+	display: inline;
+	margin-right: 30px;
+}
+/*左边导航部分begin*/
+h2 {
+	height: 42px;
+	padding-bottom: 3px;
+	line-height: 42px;
+	font-size: 21px;
+	font-weight: 100;
+	background: url(../Image/bg_product.png) repeat-x;
+	color: #fff;
+}
+
+div#proNav h2 {
+	padding-left: 20px;
+}
+/* div#proNav ul{
+	background:#eee;
+} */
+div#proNav li {
+	border-right: 1px solid #EBECEE;
+	border-left: 1px solid #EBECEE;
+	border-bottom: 1px solid #EBECEE;
+	padding-left:40px;
+}
+
+div#proNav li a {
+	color: #3b3b3b;
+	display: block;
+	line-height: 40px;
+	height: 40px;
+	background: url(../Image/userIconlist.png) no-repeat 140px -120px;
+}
+/*左边导航部分end*/
+span.allPro {
+	background: url(../Image/userIconlist.png) no-repeat 0px -73px;
+	padding-left: 35px;
+}
+
+div#productList h2 {
+	padding-left: 50px;
+}
+
+span.proDisplay {
+	background: url(../Image/userIconlist.png) no-repeat 0px -31px;
+	padding-left: 35px;
+}
+
+span.en {
+	font-size: 16px;
+	padding-left: 5px;
+	position: relative;
+	top: 2px;
+}
+
+div.productPicList {
+	overflow: hidden;
+	border: 1px solid #EBECEE;
+	border-top: none 0px;
+	padding-bottom: 40px;
+	width: 734px;
+	min-height: 600px;
+}
+
+span.newsList {
+	background: url(../Image/userIconlist.png) no-repeat 0px -171px;
+	padding-left: 35px;
+}
+/*新闻列表部分*/
+div.productPicList table {
+	margin: 20px 0px 0px 45px;
+}
+
+th.newstitle {
+	width: 400px;
+	padding-left: 50px;
+}
+
+th.publishtime {
+	width: 180px;
+}
+
+th.publishtime, th.newstitle {
+	font-weight: 100;
+}
+
+td.tdtitle a {
+	color: #3b3b3b;
+	display: block;
+	height: 35px;
+	line-height: 35px;
+	width: 400px;
+	padding-left: 50px;
+	background: url(../Image/backgroundForH2.gif) no-repeat 20px -163px;
+}
+
+td.tdtitle a:hover {
+	text-decoration: underline;
+}
+
+td.tdtime {
+	text-align: center;
+	width: 180px;
+}
+
+tr {
+	border-bottom: 1px dashed #3b3b3b;
+	line-height: 35px;
+	height: 35px;
+	display: block;
+}
+
+thead tr {
+	border: none;
+}
+
+div.productPicList div#pageNum {
+	clear: both;
+	height: 100%;
+	padding-top: 40px;
+	overflow: hidden;
+	padding-left: 49px;
+}
+
+div.productPicList div#pageNum a {
+	margin: 0px 5px;
+	border: 1px solid #e1e2e3;
+	cursor: pointer;
+	float: left;
+	display: inline;
+	height: 34px;
+	width: 34px;
+	line-height: 34px;
+	text-align: center;
+	color: #1169BF;
+	border: 1px solid #e1e2e3;
+}
+
+div.productPicList div#pageNum a:hover {
+	background: #f2f8ff;
+	border: 1px solid #38f;
+}
+
+div.productPicList div#pageNum a.upPage {
+	width: 100px;
+	background: url(../Image/iconfont-xiayi.png) no-repeat 15px 9px;
+	padding-left: 8px;
+	_background: none;
+	_padding-left: 0px;
+}
+
+div.productPicList div#pageNum a.upPage:hover {
+	background: url(../Image/iconfont-xiayi.png) no-repeat 15px 9px #f2f8ff;
+	_background: #f2f8ff;
+	border: 1px solid #38f;
+}
+
+div.productPicList div#pageNum a.downPage {
+	width: 100px;
+	padding-right: 8px;
+	background: url(../Image/iconfont-xiayi.png) no-repeat 80px -41px;
+	_background: none;
+	_padding-right: 0px;
+}
+
+div.productPicList div#pageNum a.downPage:hover {
+	background: url(../Image/iconfont-xiayi.png) no-repeat 80px -41px
+		#f2f8ff;
+	_background: #f2f8ff;
+	border: 1px solid #38f;
+}
+
+form.toOtherPage {
+	display: block;
+	margin: 10px 0px 0px 5px;
+	width: 100%;
+	height: 34px;
+	line-height: 34px;
+}
+
+form.toOtherPage select {
+	border: 1px solid #e1e2e3;
+	font-size: 16px;
+	width: 45px;
+}
+
+form.toOtherPage input {
+	cursor:pointer;
+	background: #ffdf75;
+	height: 24px;
+	line-height: 20px;
+	margin: 10px 0 0 10px;
+	padding: 2px 4px;
+}
+
+div#aList {
+	display: block;
+	overflow: hidden;
+}
+
+div.productPicList h3, div.productPicList h4 {
+	font-weight: 500;
+	color: #3b3b3b;
+	padding-left: 20px;
+	font-size: 16px;
+	width: 694px;
+}
+
+div.productPicList h4.newsTitleforh4 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 900;
+}
+
+div.detail {
+	padding: 0px 20px;
+	width:694px;
+}
+
+a.nextNews{
+	color:#FF4400;
+}
+a.lastNews{
+	color:#2D62CC;
+}
+p.newsContent{
+	margin-top:20px;
+	padding-left:20px;
+}
+div.links{
+	margin-top:40px;
+	margin-bottom:40px;
+	padding-left:20px;
+}
+p.errorMessage{
+	background:url(../Image/cha.gif) no-repeat -3px -3px;
+	padding-left:25px;
+	margin-top:20px;
+	margin-left:290px;
+}

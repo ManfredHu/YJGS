@@ -1,0 +1,1 @@
+div#main p a:hover,div#main p span{text-decoration:underline}div#main h2{font-size:20px;font-weight:100;margin-left:20px;padding:5px 0}div#main div{border-bottom:1px dashed #000;margin-top:10px;padding-bottom:10px}div#main p{margin-left:60px}div#main div.bottomDiv{border-bottom:none 0}div#main p a{color:#1169BF}

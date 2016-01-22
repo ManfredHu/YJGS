@@ -1,0 +1,281 @@
+@CHARSET "UTF-8";
+/*@全局reset*/
+* {
+	margin: 0px;
+	padding: 0px;
+	border: none 0;
+}
+
+body {
+	font-family: "Microsoft Yahei", arial, "宋体";
+	background: url(../Image/headbackground.png) repeat-x #ebecee;
+	/*渐变色块横排与灰色背景色*/
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+/*@全局reset-end*/
+/*@结构布局*/
+#header {
+	height: 152px;
+}
+
+body div#header {
+	background: url(../Image/bobackground.png) repeat-x;
+	/*后代选择器选择透明图片背景*/
+	/*IE6hark-png滤镜*/
+	_background: none;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../Image/bobackground.png");
+}
+
+#mycenter {
+	width: 900px;
+	margin: 0 auto;
+}
+
+#header div#mycenter {
+	padding: 24px 0px;
+	position: relative;
+	/*头部居中相对定位使查找框绝对定位*/
+}
+
+div.logo img {
+	padding-left: 65px;
+	background: url(../Image/logo.png);
+	/*海豚LOGO*/
+}
+
+div.topright {
+	/*设为首页收藏本站层*/
+	position: absolute;
+	right: 0px;
+	top: 20px;
+}
+
+div.topright a {
+	color: #fff;
+}
+
+div.topright a:hover {
+	text-decoration: underline;
+}
+
+#setHome {
+	background: url(../Image/iconlist.png) no-repeat 0px -22px;
+	padding-left: 23px;
+	_background:none;
+}
+
+#collect {
+	background: url(../Image/iconlist.png) no-repeat 0px -1px;
+	padding-left: 23px;
+	margin-left: 13px;
+	_background:none;
+}
+
+div.checkdiv {
+	/*搜索层*/
+	position: absolute;
+	top: 54px;
+	right: 0px;
+}
+
+#textbox {
+	/*搜索文本框*/
+	height: 20px;
+	width: 200px;
+	line-height: 20px;
+	padding: 5px;
+	font-size: 14px;
+	position: absolute;
+	top: 0px;
+	right: 30px;
+	color: #888;
+}
+
+#check {
+	/*查找框*/
+	height: 30px;
+	width: 30px;
+	background: url(../Image/iconlist.png) no-repeat 3px -45px #ebecee;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+/***********************************/
+/*********@nav部分******************/
+/***********************************/
+ul#nav {
+	position: absolute;
+	top: 108px;
+	left: 0px;
+}
+
+li.navli, li#liPro {
+	float: left;
+	display: inline;
+}
+
+li.navli a, a.oneli {
+	display: block;
+	color: #fff;
+	font-size: 16px;
+	/* padding: 0px 15px 3px 15px; */
+	height: 44px;
+	line-height: 41px;
+	width: 105px;
+	text-align: center;
+}
+
+li.navli a:hover, a:hover.oneli {
+	background: url(../Image/nav_bg_hover.png) no-repeat;
+	_background: none;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../Image/nav_bg_hover.png");
+}
+/***********************************/
+/*********@产品二级导航部分**************/
+/***********************************/
+ul#proNa {
+	display: none;
+	position: absolute;
+	top: 44px;
+	left: -110px;
+	background:#444;
+	background: rgba(105, 107, 115, 0.8);
+	_background: #aaa;
+	color: #fff;
+	z-index: 2147483647;
+	width: 1100px;
+	padding: 10px 10px 10px 10px;
+}
+
+ul#proNa li {
+	width: 220px;
+	float: left;
+	padding: 10px 25px;
+}
+
+ul#proNa li a {
+	color: #fff;
+}
+
+ul#proNa dt {
+	font-size: 16px;
+	border-bottom: 1px dashed #fff;
+	padding: 10px 0px 10px 25px;
+	margin-bottom: 10px;
+	background: url(../Image/iconfont-youjiantou.png) no-repeat 0px 14px;
+}
+
+ul#proNa dd {
+	padding: 2px 0px 2px 35px;
+	background: url(../Image/iconfont-youjiantou.png) no-repeat 13px -21px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+ul#proNa dd a {
+	font-size: 14px;
+}
+
+ul#proNa dl {
+	border-bottom: 1px dashed #fff;
+	padding-bottom: 10px;
+}
+
+a.allPro {
+	font-size: 14px;
+	display: block;
+	padding-left: 35px;
+}
+
+ul#proNa a:hover {
+	text-decoration: underline;
+}
+/***********************************/
+/*********@content部分**************/
+/***********************************/
+#content {
+	padding: 40px 0;
+	width: 1040px;
+	margin: 0px auto;
+	background: #fff;
+	/* min-height: 500px; @d should delete */
+}
+/***********************************/
+/*********@footer部分**************/
+/***********************************/
+#footer {
+	width: 100%;
+	background: url(../Image/bg_footer.png) repeat-x;
+	height: 371px;
+	position: relative;
+	color: #fff;
+	font-size: 14px;
+	margin-top: 50px;
+}
+
+#footer>#mycenter {
+	background: url(../Image/footer-logo.png) no-repeat right bottom;
+}
+
+#footer #mycenter {
+	position: relative;
+	height: 358px;
+}
+
+#footer a {
+	color: #fff;
+}
+
+#footer a:hover {
+	text-decoration: underline;
+}
+
+#footer div.about {
+	position: absolute;
+	top: 200px;
+	left: 100px;
+}
+
+#footer div.links {
+	position: absolute;
+	top: 200px;
+	left: 250px;
+}
+
+#footer div.copyRight {
+	position: absolute;
+	top: 200px;
+	left: 420px;
+}
+
+#footer h3 {
+	font-weight: 100;
+	padding-bottom: 8px;
+	position: relative;
+	left: -15px;
+}
+
+a.toTop {
+	height: 42px;
+	width: 42px;
+}
+
+#goTopBtn {
+	_display:none;
+	width: 42px;
+	height: 42px;
+	CURSOR: pointer;
+	position: fixed;
+	margin-right: -570px;
+	right: 50%;
+	bottom: 420px;
+	background: url(../Image/backgroundForH2.gif) no-repeat -7px -100px;
+}

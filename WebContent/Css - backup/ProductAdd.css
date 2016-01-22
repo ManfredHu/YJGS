@@ -1,0 +1,308 @@
+/*************/
+/*添加产品部分第一页*/
+/*************/
+div.chooType span, div.inputname span, div.paramAdd span {
+	float: left;
+	height: 45px;
+	line-height: 45px;
+	padding-right: 10px;
+	text-align: right;
+	width: 200px;
+}
+
+div.chooType, div.inputname {
+	height: 45px;
+}
+
+div.chooType select {
+	width: 150px;
+	border: 1px solid #ccc;
+	margin-top: 6.5px;
+	_margin-top: 11.5px;
+	padding: 5px 5px;
+	font-size: 16px;
+	padding: 5px 5px;
+}
+
+div.inputname input {
+	border: 1px solid #cccccc;
+	font-size: 16px;
+	margin: 7.5px 0;
+	padding: 5px 8px;
+	width: 150px;
+}
+
+div.paramAdd span {
+	display: block;
+	float: none;
+}
+
+th {
+	background: none repeat scroll 0 0 #1169bf;
+	color: #fff;
+	padding: 3px 0;
+	font-weight: 100;
+	font-size: 16px;
+}
+
+th, td {
+	text-align: center;
+}
+
+table {
+	margin-left: 118px;
+}
+
+tbody tr td input {
+	border: 1px solid #cccccc;
+	font-size: 16px;
+	padding: 2px 8px;
+	width: 150px;
+}
+
+input#addParamBtn {
+	display: block;
+	background: #FFDF75;
+	padding: 3px 6px;
+	line-height: 20px;
+	margin: 10px 0 0 120px;
+	background: #FFDF75;
+	cursor:pointer;
+}
+
+input.deletebtn {
+	background: url("../Image/adminIconList.png") no-repeat 0px -505px
+		#EC4F4F;
+	padding: 0 0 0 25px;
+	color: #fff;
+	width: 70px;
+	height: 24px;
+	border: none 0;
+	_background: #eee;
+	_color: #000;
+	_padding: 0;
+	cursor:pointer;
+}
+
+input.deletebtn:hover, input.deletebtn:focus {
+	background: url("../Image/adminIconList.png") no-repeat 0px -505px
+		#f59292;
+}
+
+input#nextBtn {
+	box-shadow: 0 0 2px #fff int;
+	border-radius: 3px;
+	font-weight: 400;
+	background: #febf4d;
+	background: linear-gradient(#ffd974, #febf4d);
+	color: #614323;
+	border: 1px solid #e6b650;
+	box-shadow: 0 0 2px #fff int;
+	font-size: 20px;
+	font-weight: 400;
+	padding: 3px 10px;
+	margin: 60px 0 0 442px;
+	height: 33px;
+	width: 88px;
+	_border: none;
+	_padding: 0;
+	display: block;
+	cursor:pointer;
+}
+
+input#nextBtn:hover, input#nextBtn:focus {
+	background-color: #ffd974;
+	background-image: linear-gradient(#febf4d, #ffd974);
+	border: 1px solid #c1913d;
+}
+
+form#AddProduct {
+	position: relative;
+}
+
+p#error {
+	color: #ec4f4f;
+	top: -27px;
+	left: 150px;
+	position: relative;
+	background: url("../Image/adminIconList.png") no-repeat scroll 0 -374px
+		rgba(0, 0, 0, 0);
+	color: #eb4f38;
+	padding-left: 25px;
+	width: 250px;
+}
+/*************/
+/*添加产品部分第二页*/
+/*************/
+div#main h2 {
+	font-weight: 100;
+	font-size: 18px;
+	margin: 20px 0 0 10px;
+}
+
+#breDiv {
+	padding-left: 7px;
+	margin-top: 10px;
+}
+
+#breDiv img {
+	display: inline-block;
+	width: 210px;
+	height: 135px;
+}
+
+div.uploadDiv {
+	width: 145px;
+	height: 40px;
+	background: url(../Image/BGupload.png) no-repeat;
+	position: relative;
+	margin: 20px 0 0 40px;
+	overflow: hidden;
+}
+
+input.file {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity : 0);
+	z-index: 999;
+	height: 40px;
+	width: 145px;
+}
+
+input#upload {
+	display: none;
+}
+
+div.secondDiv {
+	position: relative;
+}
+/*************/
+/****原图部分*****/
+/*************/
+div.bigPic {
+	width: 350px;
+	margin: 20px 0 0 10px;
+	display: inline-block;
+}
+
+div.bigPic span, div.smartPic span {
+	display: block;
+	margin-bottom: 10px;
+}
+/*************/
+/*****预览图部分***/
+/*************/
+div.smartPic {
+	width: 210px;
+	position: absolute;
+	right: 10px;
+	_right: 20px;
+	top: 44px;
+	_top: 46px;
+}
+
+input.sureAndSave {
+	box-shadow: 0 0 2px #fff int;
+	border-radius: 3px;
+	font-weight: 400;
+	background: #febf4d;
+	background: linear-gradient(#ffd974, #febf4d);
+	color: #614323;
+	border: 1px solid #e6b650;
+	box-shadow: 0 0 2px #fff int;
+	font-size: 20px;
+	font-weight: 400;
+	padding: 3px 10px;
+	margin: 0px 0 0 500px;
+	line-height: 33px;
+	width: 128x;
+	_border: none;
+	_padding: 0;
+	display: block;
+	text-align: center;
+}
+
+input.sureAndSave:hover, input.sureAndSave:focus {
+	background-color: #ffd974;
+	background-image: linear-gradient(#febf4d, #ffd974);
+	border: 1px solid #c1913d;
+}
+
+a.nextBtn {
+	box-shadow: 0 0 2px #fff int;
+	border-radius: 3px;
+	font-weight: 400;
+	background: #febf4d;
+	background: linear-gradient(#ffd974, #febf4d);
+	color: #614323;
+	border: 1px solid #e6b650;
+	box-shadow: 0 0 2px #fff int;
+	font-size: 20px;
+	font-weight: 400;
+	padding: 3px 10px;
+	margin: 60px 0 0 500px;
+	line-height: 33px;
+	height: 33px;
+	width: 88px;
+	_border: none;
+	_padding: 0;
+	display: block;
+	text-align: center;
+}
+
+a.nextBtn:hover, a.nextBtn:focus {
+	background-color: #ffd974;
+	background-image: linear-gradient(#febf4d, #ffd974);
+	border: 1px solid #c1913d;
+}
+/*************/
+/****产品介绍部分***/
+/*************/
+form#ckeditor {
+	width: 650px;
+	margin-top: 10px;
+}
+
+input#nextBtn2 {
+	box-shadow: 0 0 2px #fff int;
+	border-radius: 3px;
+	font-weight: 400;
+	background: #febf4d;
+	background: linear-gradient(#ffd974, #febf4d);
+	color: #614323;
+	border: 1px solid #e6b650;
+	box-shadow: 0 0 2px #fff int;
+	font-size: 20px;
+	font-weight: 400;
+	padding: 3px 10px;
+	margin: 30px 0 0 542px;
+	height: 33px;
+	width: 88px;
+	_border: none;
+	_padding: 0;
+	display: block;
+}
+
+input#nextBtn2:hover, input#nextBtn2:focus {
+	background-color: #ffd974;
+	background-image: linear-gradient(#febf4d, #ffd974);
+	border: 1px solid #c1913d;
+}
+div#mian{
+	overflow:hidden;
+}
+/*底部信息修改*/
+span.paramSet{
+	float: left;
+    height: 45px;
+    line-height: 45px;
+    padding-right: 10px;
+    text-align: right;
+    width: 200px;
+}
+table#paramsTable{
+	clear:both;
+}

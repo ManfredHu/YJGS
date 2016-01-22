@@ -1,0 +1,11 @@
+@CHARSET "UTF-8";
+div#main h1{
+	margin-top:50px;
+	text-align:center;
+	color:#1169BF;
+}
+div#main p{
+	text-align:right;
+	margin:20px 20px 0px 0px;
+	color:#1169BF;
+}

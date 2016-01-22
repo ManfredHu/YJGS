@@ -1,0 +1,48 @@
+@CHARSET "UTF-8";
+
+body {
+	color: #3b3b3b;
+}
+
+div#content {
+	overflow: hidden;
+}
+
+div.nowTips {
+	padding-bottom: 20px;
+	background: url(../Image/nowBG.png) no-repeat right top;
+}
+
+div.nowTips span {
+	display: block;
+	padding-left: 28px;
+	background: url(../Image/userIconlist.png) no-repeat -7px -1px;
+	margin-left: 35px;
+}
+
+div.nowTips a {
+	color: #1169BF;
+}
+
+div.nowTips a:hover, div.nowTips a:focus {
+	text-decoration: underline;
+}
+div.centerfor{
+	padding:40px;
+	overflow:hidden;
+	background: url(../Image/ContactUsBG.png) no-repeat 93% 100%;
+	_background:none;
+}
+div.centerfor h2{
+	padding-bottom:10px;
+	font-weight:700;
+	font-size:20px;
+	border-bottom:1px solid #EBECEE;
+	margin-bottom:20px;
+}
+div.centerfor img{
+	padding:0px 30px 10px 10px;
+}
+div.contactContent{
+	
+}

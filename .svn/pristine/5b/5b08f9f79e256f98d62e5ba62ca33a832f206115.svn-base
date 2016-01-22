@@ -1,0 +1,71 @@
+@CHARSET "UTF-8";
+/*增加新闻系列*/
+div#main form#ProductTypeAdd {
+	width: 366px;
+	margin: 50px 0 0 120px;
+}
+
+form#ProductTypeAdd div span {
+	float: left;
+	height: 45px;
+	line-height: 45px;
+	padding-right: 10px;
+	text-align: right;
+	width: 130px;
+}
+form#ProductTypeAdd div input {
+	border: 1px solid #cccccc;
+	font-size: 18px;
+	margin: 6px 0;
+	padding: 5px 15px;
+	width: 194px;
+}
+div#TypeArea{
+	float:left;
+	width:226px;
+}
+div.spanAndTypeArea{
+	overflow:hidden;
+}
+form#ProductTypeAdd a{
+	margin:10px 0 0 140px;
+	background: none repeat #ffdf75;
+    display: block;
+    line-height: 20px;
+    padding: 3px 6px;
+    width:64px;
+    height:21px;
+    color:#000;
+}
+form#ProductTypeAdd div input {
+	border: 1px solid #cccccc;
+	font-size: 18px;
+	margin: 6px 0;
+	padding: 5px 15px;
+	width: 194px;
+}
+
+input.typeAddBtn {
+	box-shadow: 0 0 2px #fff inset;
+	text-shadow: 1px 1px 1px #fbe5ac;
+	border-radius: 3px;
+	font-weight: 400;
+	background: #febf4d;
+	background: linear-gradient(#ffd974, #febf4d);
+	color: #614323;
+	_border: none;
+	border: 1px solid #e6b650;
+	font-size: 20px;
+	padding: 5px 10px;
+	_padding:0px;
+	width: 66px;
+	float: right;
+	margin: 60px 0 0 0;
+}
+
+.typeAddBtn:hover, .typeAddBtn:focus {
+	background-color: #ffd974;
+	background-image: linear-gradient(#febf4d, #ffd974);
+	border: 1px solid #c1913d;
+	_border: none;
+}

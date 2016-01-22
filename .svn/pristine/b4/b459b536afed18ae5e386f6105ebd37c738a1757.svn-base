@@ -1,0 +1,28 @@
+@CHARSET "UTF-8";
+
+div#main h2 {
+	font-size: 20px;
+	font-weight: 100;
+	margin-left: 20px;
+	padding: 5px 0;
+}
+div#main div{
+	border-bottom:1px dashed #000;
+	margin-top:10px;
+	padding-bottom:10px;
+}
+div#main p{
+	margin-left:60px;
+}
+div#main p span{
+	text-decoration:underline;
+}
+div#main div.bottomDiv{
+	border-bottom:none 0px;
+}
+div#main p a{
+	color:#1169BF;
+}
+div#main p a:hover{
+	text-decoration:underline;
+}

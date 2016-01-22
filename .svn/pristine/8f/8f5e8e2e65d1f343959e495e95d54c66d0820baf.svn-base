@@ -1,0 +1,61 @@
+@CHARSET "UTF-8";
+h3.s{
+	background: rgba(0, 0, 0, 0) url("../Image/adminIconList.png") no-repeat scroll 0 -405px;
+    font-size: 25px;
+    font-weight: 100;
+    margin: 15px auto;
+    padding-left: 30px;
+    text-align: center;
+    width: 160px;
+}
+table{
+	text-align:center;
+	margin:0px auto;
+}
+div#main a{
+	color:#1169BF;
+	transition:all 0.1s	ease-in-out;
+}
+div#main a:hover{
+	background:#1169BF;
+	color:#fff;
+}
+span.name{
+	color:#1169BF;
+	padding:0px 5px;
+}
+div#main  .btnp{
+    background: #ffdf75 none repeat scroll 0 0;
+    cursor: pointer;
+    height: 24px;
+    line-height: 20px;
+    margin: 10px 0 0 10px;
+    padding: 2px 4px;
+}
+div#main  .rEmail{
+	margin-top:20px;
+}
+div#main  .lp{
+	margin-top:10px;
+}
+div#main  .inp{
+	border: 1px solid #cccccc;
+    font-size: 18px;
+    margin: 6px 0;
+    padding: 5px 15px;
+    width: 194px;	
+}
+div#main  .tx{
+	height:200px;
+	width:400px;
+	border: 1px solid #cccccc;
+    font-size: 18px;
+    margin: 6px 0;
+    padding: 5px 15px;
+    vertical-align:middle;
+    resize:none;
+}
+div#main  .tip{
+	font-size:14px;
+	color:#aaa;
+}

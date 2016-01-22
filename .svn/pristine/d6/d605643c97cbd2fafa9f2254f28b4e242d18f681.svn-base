@@ -1,0 +1,68 @@
+@CHARSET "UTF-8";
+form#writeProblem ul{
+	width:400px;
+	margin:0 auto;
+	padding-top:20px;
+}
+form#writeProblem{
+	position:relative;
+}
+
+form#writeProblem span {
+	width: 130px;
+	text-align: right;
+	padding-right: 10px;
+	float: left;
+	display: inline;
+	height: 40px;
+	line-height:40px;
+}
+
+form input {
+	height: 25px;
+	border: 1px solid #cccccc;
+	font-size: 18px;
+	margin: 4px 0px;
+	padding: 5px 15px;
+	width:194px;
+}
+
+form input#login {
+	width:79px;
+	box-shadow: 0 0 2px #fff inset;
+	text-shadow: 1px 1px 1px #fbe5ac;
+	border-radius: 3px;
+	border: 1px solid #e6b650;
+	padding: 5px 15px;
+	font-size: 20px;
+	font-weight: 400;
+	position: absolute;
+	right: 162px;
+	top: 330px;
+	z-index: 999;
+	background: #febf4d;
+	background: linear-gradient(#ffd974, #febf4d);
+	color: #986a39;
+	font-family: "Microsoft Yahei", "微软雅黑", arial, "宋体";
+	height:39px;
+	margin:0px;
+	_padding:2px;
+	cursor:pointer;
+}
+
+#login:hover, #login:focus {
+	background-color: #ffd974;
+	background-image: linear-gradient(#febf4d, #ffd974);
+	border: 1px solid #c1913d;
+}
+
+#error {
+	position: absolute;
+	top: 336px;
+	right:350px;
+	padding-left: 25px;
+	background: url(../Image/adminIconList.png) no-repeat 0px -372px;
+	height: 24px;
+	line-height: 24px;
+	color: #DD4B35;
+}

@@ -1,0 +1,283 @@
+@CHARSET "UTF-8";
+/*@全局reset*/
+* {
+	margin: 0px;
+	padding: 0px;
+	border: none 0;
+}
+
+body {
+	font-family: "Microsoft Yahei", arial, "宋体";
+	font-size: 16px;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+/*@全局reset-end*/
+/*@结构布局*/
+body {
+	width: 100%;
+	background: url(../Image/body_repeat.png) repeat-x #d5d5e1;
+}
+
+#aheader {
+	height: 100px;
+	width: 100%;
+	background: #1169bf;
+}
+
+#mycenter {
+	width: 900px;
+	margin: 0 auto;
+}
+
+#aheader #mycenter {
+	position: relative;
+	padding-top: 18px;
+}
+
+#aheader, #aheader a {
+	color: #fff;
+}
+
+a#logo {
+	display: block;
+	height: 60px;
+	line-height: 60px;
+	padding-left: 75px;
+	font-size: 30px;
+	background: url(../Image/adminIconList.png) no-repeat 0px 0px;
+	width: 300px;
+}
+
+div.atopright {
+	position: absolute;
+	right: 0px;
+	top: 43px;
+}
+
+div.atopright span {
+	background: url(../Image/adminIconList.png) no-repeat 0px -66px;
+	padding-left: 33px;
+}
+
+a#name:hover {
+	text-decoration: underline;
+}
+
+a#exit {
+	background: url(../Image/adminIconList.png) no-repeat 0px -90px #f36e6e;
+	border-radius: 6px;
+	padding: 2px 8px 2px 29px;
+	margin-left: 10px;
+}
+
+a:hover#exit {
+	background: url(../Image/adminIconList.png) no-repeat 0px -116px #f36e6e;
+}
+a.hasNews{
+	background:url(../Image/adminIconList.png) no-repeat 53px -610px;
+	padding:0px 10px;
+	font-size:14px;
+}
+a.hasNews:hover{
+	text-decoration:underline;
+}
+a.noNews{
+	font-size:14px;
+	padding:0px 10px;
+}
+a.noNews:hover{
+	text-decoration:underline;
+}
+/***********************************/
+/*********@content部分**************/
+/***********************************/
+#acontent #mycenter {
+	position: relative;
+}
+
+#acontent {
+	width: 100%;
+	background: url(../Image/body_bg.jpg) repeat-x #d5d5e1 center top;
+}
+
+#acontent div.top {
+	padding: 18px 0;
+}
+
+#acontent div.top span {
+	padding-left: 28px;
+	color: #252b3b;
+	background: url(../Image/adminIconList.png) no-repeat 0px -143px;
+	_background: none;
+}
+/*当前位置*/
+div.top a {
+	color: #1169bf;
+}
+
+div.top a:hover {
+	text-decoration: underline;
+}
+/*进入网站*/
+a#toIndex {
+	position: absolute;
+	right: 2px;
+	top: 13px;
+	display: block;
+	height: 31px;
+	line-height: 31px;
+	padding-left: 36px;
+	background: url(../Image/adminIconList.png) no-repeat 0px -163px;
+	_background: none;
+}
+/***********************************/
+/*********@content nav部分**********/
+/***********************************/
+div#acontent {
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+
+div#nav {
+	width: 200px;
+	float: left;
+	background: rgba(105, 107, 115, 0.5);
+	filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7F696b73,
+		endcolorstr=#7F696b73);
+	color: #fff;
+	padding-bottom: 20px;
+	height: 945px;
+}
+
+div#nav h2 {
+	height: 55px;
+	line-height: 55px;
+	text-align: center;
+	background: #1169bf;
+	font-weight: 100;
+}
+
+div#nav dl {
+	display: block;
+}
+
+div#nav h3 {
+	font-size:18px;
+	font-weight: 100;
+	padding: 5px 10px 5px 40px;
+}
+
+div#nav ul h3 {
+	background: url(../Image/AddAndMinus.gif) no-repeat 13px -35px;
+}
+
+div#nav h3:hover {
+	cursor: pointer;
+	background: url(../Image/AddAndMinus.gif) no-repeat 13px -35px #779dc7;
+}
+
+div#nav a {
+	display: block;
+	color: #fff;
+	height: 25px;
+	line-height: 25px;
+	padding-left: 50px;
+}
+
+div#nav a:hover {
+	background: #9bafcc;
+}
+/***********************************/
+/*********@content main部分*********/
+/***********************************/
+div#main {
+	width: 655px;
+	padding: 10px;
+	float: right;
+	background: #fff;
+	_height: 945px;
+	min-height:945px;
+}
+/***********************************/
+/*********@footer*****部分**********/
+/***********************************/
+#afooter {
+	background: #1169bf;
+	color: #fff;
+	padding: 10px 0;
+	clear: both;
+}
+
+#afooter p {
+	text-align: center;
+}
+/***********************************/
+/*********@main部分提示页面*************/
+/***********************************/
+p.succeed {
+	height: 40px;
+	line-height: 40px;
+	padding-left: 45px;
+	margin: 20px 0px 20px 250px;
+	background: url(../Image/adminIconList.png) no-repeat 0px -267px;
+	font-size: 20px;
+	color: green;
+}
+
+p.fail {
+	height: 40px;
+	line-height: 40px;
+	padding-left: 45px;
+	margin: 20px 0px 20px 250px;
+	background: url(../Image/adminIconList.png) no-repeat 0px -308px;
+	font-size: 20px;
+	color: red;
+}
+
+p.textCenter {
+	text-align: center;
+}
+p.pmargin{
+	margin-bottom:10px;
+}
+p.textCenter a {
+	color: #1169BF;
+}
+
+p.textCenter a:hover {
+	text-decoration: underline;
+}
+
+.submitButton {
+	box-shadow: 0 0 2px #fff inset;
+	text-shadow: 1px 1px 1px #fbe5ac;
+	border-radius: 3px;
+	border: 1px solid #e6b650;
+	padding: 5px 15px;
+	font-size: 20px;
+	font-weight: 400;
+	background: #febf4d;
+	background: linear-gradient(#ffd974, #febf4d);
+	color: #614323;
+}
+
+.submitButton:hover, .submitButton:focus {
+	background-color: #ffd974;
+	background-image: linear-gradient(#febf4d, #ffd974);
+	border: 1px solid #c1913d;
+}
+/*ie6格式*/
+.minusNavBg {
+	background: url(../Image/AddAndMinus.gif) no-repeat 10px 0px;
+}
+
+.addNavBg {
+	background: url(../Image/AddAndMinus.gif) no-repeat 10px 0px;
+}
